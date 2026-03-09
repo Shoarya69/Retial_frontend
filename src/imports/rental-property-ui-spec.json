@@ -1,0 +1,96 @@
+{
+  "project_name": "Rental Property Website UI",
+  "type": "modern responsive website design",
+  "style": "clean modern real-estate style similar to Airbnb and Zillow",
+  "color_palette": {
+    "primary": "#2563EB",
+    "secondary": "#0F172A",
+    "accent": "#F59E0B",
+    "background": "#F8FAFC"
+  },
+  "fonts": {
+    "heading": "Poppins",
+    "body": "Inter"
+  },
+  "pages": [
+    {
+      "name": "Home Page",
+      "sections": [
+        "Hero section with property search",
+        "Featured rental properties grid",
+        "Why choose us section",
+        "Latest listings",
+        "Customer testimonials",
+        "Call to action contact section",
+        "Footer with contact details"
+      ]
+    },
+    {
+      "name": "Property Listing Page",
+      "description": "Grid layout showing available rental properties",
+      "property_card": {
+        "fields": [
+          "property_image",
+          "property_name",
+          "location",
+          "price_per_month",
+          "bedrooms",
+          "bathrooms",
+          "area_sqft"
+        ],
+        "buttons": [
+          "View Details",
+          "Contact on WhatsApp"
+        ],
+        "whatsapp_message_format": "Hello, I am interested in the property: {property_name}. Is this property available?"
+      }
+    },
+    {
+      "name": "Property Details Page",
+      "sections": [
+        "Image gallery slider",
+        "Property description",
+        "Amenities list",
+        "Map location",
+        "Owner contact card"
+      ],
+      "whatsapp_inquiry_button": {
+        "text": "Ask About This Property",
+        "message_format": "Hello, I want more details about the property: {property_name} located in {location}. Is it available?"
+      }
+    },
+    {
+      "name": "Contact Page",
+      "form_fields": [
+        "Full Name",
+        "Phone Number",
+        "Email",
+        "Property Name",
+        "Message"
+      ],
+      "form_submission_behavior": "When user submits the form, redirect to WhatsApp with formatted message",
+      "whatsapp_message_template": "Hello, my name is {Full Name}. I am contacting regarding the property: {Property Name}. Phone: {Phone Number}. Message: {Message}"
+    },
+    {
+      "name": "About Page",
+      "sections": [
+        "About the company",
+        "Founder introduction",
+        "Our mission",
+        "Contact CTA"
+      ]
+    }
+  ],
+  "features": [
+    "Fully responsive design",
+    "Modern real estate card layout",
+    "Sticky navigation bar",
+    "Property filters (price, location, bedrooms)",
+    "WhatsApp inquiry buttons on every property",
+    "Contact form sending formatted message to WhatsApp"
+  ],
+  "whatsapp_integration": {
+    "number": "+916367733285",
+    "url_format": "https://api.whatsapp.com/send?phone=916367733285&text={formatted_message}"
+  }
+}
