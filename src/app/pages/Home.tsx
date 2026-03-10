@@ -35,7 +35,7 @@ export default function Home() {
       <section className="relative h-[600px] flex items-center justify-center" style={{ backgroundColor: '#0F172A' }}>
         <div className="absolute inset-0 opacity-20">
           <ImageWithFallback
-            src="https://source.unsplash.com/1920x1080/?luxury,apartment,interior"
+            src="https://images.unsplash.com/photo-1501183638710-841dd1904471"
             alt="Hero background"
             className="w-full h-full object-cover"
           />

@@ -7,10 +7,11 @@ interface PropertyCardProps {
   property: Property;
 }
 
+
 export function PropertyCard({ property }: PropertyCardProps) {
   const handleWhatsApp = () => {
     const message = `Hello, I am interested in the property: ${property.name}. Is this property available?`;
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=91XXXXXXXXXX&text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=916367733285&text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -19,7 +20,7 @@ export function PropertyCard({ property }: PropertyCardProps) {
       {/* Image */}
       <Link to={`/property/${property.id}`} className="block relative h-48 overflow-hidden">
         <ImageWithFallback
-          src={`https://source.unsplash.com/800x600/?${property.images[0]}`}
+          src={`${property.images[0]}`}
           alt={property.name}
           className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
         />

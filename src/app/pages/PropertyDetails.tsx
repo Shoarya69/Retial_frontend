@@ -58,7 +58,7 @@ export default function PropertyDetails() {
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="relative h-96">
                 <ImageWithFallback
-                  src={`https://source.unsplash.com/1200x800/?${property.images[currentImageIndex]}`}
+                  src={`${property.images[currentImageIndex]}`}
                   alt={property.name}
                   className="w-full h-full object-cover"
                 />
@@ -106,7 +106,7 @@ export default function PropertyDetails() {
                     style={index === currentImageIndex ? { '--tw-ring-color': '#2563EB' } as any : {}}
                   >
                     <ImageWithFallback
-                      src={`https://source.unsplash.com/400x300/?${image}`}
+                      src={`${image}`}
                       alt={`${property.name} ${index + 1}`}
                       className="w-full h-full object-cover"
                     />

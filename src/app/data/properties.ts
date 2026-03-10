@@ -28,12 +28,12 @@ export const properties: Property[] = [
     bathrooms: 2,
     areaSqft: 1500,
     images: [
-      "luxury-apartment-living",
-      "modern-apartment-interior",
-      "luxury-bedroom"
+      "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
     ],
-    description: "Beautiful modern apartment in the heart of the city with stunning views and contemporary design. Features include spacious living area, modern kitchen with premium appliances, and large windows with natural light.",
-    amenities: ["24/7 Security", "Gym", "Swimming Pool", "Parking", "Wi-Fi", "Air Conditioning"],
+    description: "Beautiful modern apartment in the heart of the city with stunning views and contemporary design.",
+    amenities: ["24/7 Security","Gym","Swimming Pool","Parking","Wi-Fi","Air Conditioning"],
     featured: true,
     owner: {
       name: "Rajesh Kumar",
@@ -41,6 +41,7 @@ export const properties: Property[] = [
       email: "rajesh@properties.com"
     }
   },
+
   {
     id: "2",
     name: "Cozy Studio Near Metro",
@@ -50,12 +51,12 @@ export const properties: Property[] = [
     bathrooms: 1,
     areaSqft: 600,
     images: [
-      "studio-apartment",
-      "modern-kitchen",
-      "cozy-bedroom"
+      "https://images.unsplash.com/photo-1560448075-bb4caa6c59a2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
     ],
-    description: "Compact and efficient studio apartment perfect for singles or couples. Located just 5 minutes walk from metro station with easy access to shopping and dining.",
-    amenities: ["Security", "Parking", "Wi-Fi", "Air Conditioning"],
+    description: "Compact studio apartment perfect for singles or couples near metro access.",
+    amenities: ["Security","Parking","Wi-Fi","Air Conditioning"],
     featured: false,
     owner: {
       name: "Priya Sharma",
@@ -63,6 +64,7 @@ export const properties: Property[] = [
       email: "priya@properties.com"
     }
   },
+
   {
     id: "3",
     name: "Spacious Family Home",
@@ -72,12 +74,12 @@ export const properties: Property[] = [
     bathrooms: 3,
     areaSqft: 2200,
     images: [
-      "family-home-exterior",
-      "spacious-living-room",
-      "modern-dining-room"
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
     ],
-    description: "Perfect family home with large backyard and modern amenities. Features include spacious bedrooms, dedicated study room, and a beautiful terrace garden.",
-    amenities: ["24/7 Security", "Gym", "Garden", "Parking", "Power Backup", "Club House"],
+    description: "Large family home with garden and modern interiors.",
+    amenities: ["24/7 Security","Gym","Garden","Parking","Power Backup","Club House"],
     featured: true,
     owner: {
       name: "Amit Patel",
@@ -85,6 +87,7 @@ export const properties: Property[] = [
       email: "amit@properties.com"
     }
   },
+
   {
     id: "4",
     name: "Modern 2BHK with Sea View",
@@ -94,12 +97,12 @@ export const properties: Property[] = [
     bathrooms: 2,
     areaSqft: 1200,
     images: [
-      "sea-view-apartment",
-      "modern-balcony",
-      "luxury-bathroom"
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3b2d8f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=1200&q=80"
     ],
-    description: "Stunning sea-facing apartment with panoramic views. Premium furnishings and modern interiors with access to world-class amenities.",
-    amenities: ["24/7 Security", "Swimming Pool", "Gym", "Spa", "Parking", "Concierge"],
+    description: "Sea facing luxury apartment with premium interiors.",
+    amenities: ["24/7 Security","Swimming Pool","Gym","Spa","Parking","Concierge"],
     featured: true,
     owner: {
       name: "Neha Desai",
@@ -107,6 +110,7 @@ export const properties: Property[] = [
       email: "neha@properties.com"
     }
   },
+
   {
     id: "5",
     name: "Affordable 1BHK",
@@ -116,12 +120,12 @@ export const properties: Property[] = [
     bathrooms: 1,
     areaSqft: 650,
     images: [
-      "affordable-apartment",
-      "compact-living",
-      "simple-bedroom"
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80"
     ],
-    description: "Well-maintained and affordable apartment ideal for working professionals. Close to IT parks and shopping centers.",
-    amenities: ["Security", "Parking", "Lift", "Water Supply"],
+    description: "Affordable and clean apartment for professionals.",
+    amenities: ["Security","Parking","Lift","Water Supply"],
     featured: false,
     owner: {
       name: "Suresh Menon",
@@ -129,6 +133,7 @@ export const properties: Property[] = [
       email: "suresh@properties.com"
     }
   },
+
   {
     id: "6",
     name: "Penthouse with Terrace",
@@ -138,12 +143,12 @@ export const properties: Property[] = [
     bathrooms: 4,
     areaSqft: 3000,
     images: [
-      "penthouse-terrace",
-      "luxury-penthouse-interior",
-      "rooftop-lounge"
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753051-83c7d2b98e1f?auto=format&fit=crop&w=1200&q=80"
     ],
-    description: "Exclusive penthouse with private terrace and premium finishes throughout. Perfect for those seeking luxury and privacy.",
-    amenities: ["24/7 Security", "Private Terrace", "Gym", "Pool", "Home Theater", "Smart Home"],
+    description: "Luxury penthouse with private terrace and skyline views.",
+    amenities: ["24/7 Security","Private Terrace","Gym","Pool","Home Theater","Smart Home"],
     featured: true,
     owner: {
       name: "Vikram Singh",
@@ -151,6 +156,7 @@ export const properties: Property[] = [
       email: "vikram@properties.com"
     }
   },
+
   {
     id: "7",
     name: "Garden View Duplex",
@@ -160,12 +166,12 @@ export const properties: Property[] = [
     bathrooms: 3,
     areaSqft: 1900,
     images: [
-      "duplex-garden",
-      "modern-duplex-stairs",
-      "garden-view-room"
+      "https://images.unsplash.com/photo-1600585154207-46c28c7b7f82?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?auto=format&fit=crop&w=1200&q=80"
     ],
-    description: "Beautiful duplex with private garden access. Spacious interiors with modern design and premium amenities.",
-    amenities: ["Security", "Garden", "Parking", "Club House", "Children's Play Area"],
+    description: "Duplex apartment with garden access and spacious design.",
+    amenities: ["Security","Garden","Parking","Club House","Children's Play Area"],
     featured: false,
     owner: {
       name: "Kavita Roy",
@@ -173,6 +179,7 @@ export const properties: Property[] = [
       email: "kavita@properties.com"
     }
   },
+
   {
     id: "8",
     name: "Corporate Studio",
@@ -182,12 +189,12 @@ export const properties: Property[] = [
     bathrooms: 1,
     areaSqft: 550,
     images: [
-      "corporate-studio",
-      "business-district-view",
-      "modern-workspace"
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
     ],
-    description: "Fully furnished studio in the business district. Perfect for corporate professionals with all modern conveniences.",
-    amenities: ["24/7 Security", "Wi-Fi", "Gym", "Parking", "Concierge", "Business Center"],
+    description: "Corporate ready studio apartment in the business district.",
+    amenities: ["24/7 Security","Wi-Fi","Gym","Parking","Concierge","Business Center"],
     featured: false,
     owner: {
       name: "Anand Iyer",
