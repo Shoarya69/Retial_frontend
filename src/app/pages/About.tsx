@@ -41,7 +41,7 @@ export default function About() {
             </div>
             <div className="rounded-xl overflow-hidden shadow-xl">
               <ImageWithFallback
-                src="https://source.unsplash.com/800x600/?office,team,business"
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
                 alt="Our team"
                 className="w-full h-full object-cover"
               />
@@ -62,7 +62,7 @@ export default function About() {
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0">
                 <ImageWithFallback
-                  src="https://source.unsplash.com/400x400/?professional,portrait,business"
+                  src="/abc.png"
                   alt="Founder"
                   className="w-full h-full object-cover"
                 />
